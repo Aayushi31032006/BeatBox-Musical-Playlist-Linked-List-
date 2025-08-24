@@ -29,8 +29,7 @@ This project is perfect for **students learning Data Structures**, **mini-projec
 ---
 
 ## 📸 Preview
-![BeatBox](./![Uploading Beatbox.png…]()
-)
+![BeatBox Screenshot](./Beatbox.png)
 
 ---
 
