@@ -29,7 +29,7 @@ This project is perfect for **students learning Data Structures**, **mini-projec
 ---
 
 ## 📸 Preview
-![BeatBox Screenshot](.<img width="1167" height="726" alt="Beatbox" src="https://github.com/user-attachments/assets/d6615980-84c4-4fc6-a433-5f6ef525a0d9" />
+(<img width="1167" height="726" alt="Beatbox" src="https://github.com/user-attachments/assets/d6615980-84c4-4fc6-a433-5f6ef525a0d9" />
 )
 
 ---
