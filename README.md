@@ -15,8 +15,7 @@ Each song in the playlist is treated as a node in the linked list, allowing visu
 - Delete songs dynamically.
 - Play next song (traverse through nodes).
 - Visual diagram of the linked list.
-- Step-by-step explanation of operations.
-(./images/<img width="1167" height="726" alt="Beatbox" src="https://github.com/user-attachments/assets/259e73b4-a346-4089-954f-a5e8968fa530" />
+- Step-by-step explanation of operations.<img width="1167" height="726" alt="Beatbox" src="https://github.com/user-attachments/assets/259e73b4-a346-4089-954f-a5e8968fa530" />
 
 
 ## Technology Used
