@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>3D Musical Playlist — Linked List (with Syntax)</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>🎵 3D Musical Playlist — Linked List</h1>
+      <p>Interactive linked list of songs with step log and operation syntax.</p>
+    </header>
+
+    <section class="controls card">
+      <div class="row">
+        <input id="song" placeholder="Song Name"/>
+        <input id="artist" placeholder="Artist"/>
+        <input id="duration" placeholder="mm:ss"/>
+      </div>
+      <div class="row buttons">
+        <button id="btnAdd">Add Song (End)</button>
+        <button id="btnInsAfter">➡️ Insert After</button>
+        <button id="btnInsBefore">⬅️ Insert Before</button>
+        <button id="btnDelete">Delete Song</button>
+        <button id="btnNext">⏭ Play Next</button>
+        <button id="btnShow"> Show Playlist</button>
+        <button id="btnReset">♻️ Reset</button>
+      </div>
+      <div class="row stats">
+        <div>Total Songs: <span id="statCount">0</span></div>
+        <div>Now Playing: <span id="statNow">-</span></div>
+      </div>
+    </section>
+
+    <section class="viz card">
+      <h2>🔗 Linked List Diagram</h2>
+      <div id="list" class="list"></div>
+    </section>
+
+    <section class="log card">
+      <h2>Steps</h2>
+      <div id="steps" class="steps"></div>
+    </section>
+
+    <section class="syntax card">
+      <div class="syntax-header">
+        <h2>Operation Syntax</h2>
+        <select id="syntaxSelect" title="Browse operation syntax">
+          <option value="add">Add (append)</option>
+          <option value="insertAfter">Insert After</option>
+          <option value="insertBefore">Insert Before</option>
+          <option value="delete">Delete</option>
+          <option value="show">Show Playlist</option>
+          <option value="next">Play Next</option>
+          <option value="reset">Reset</option>
+        </select>
+      </div>
+      <pre><code id="syntaxCode">// Run an operation to see its code here, or use the dropdown 👆</code></pre>
+    </section>
+
+    <footer>
+      <small>Built with HTML/CSS/JS — no libraries. 3D effects via CSS transforms.</small>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
