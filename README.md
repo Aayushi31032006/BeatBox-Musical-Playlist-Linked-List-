@@ -29,7 +29,8 @@ This project is perfect for **students learning Data Structures**, **mini-projec
 ---
 
 ## 📸 Preview
-(."C:\Users\Aayu's Lenovo\Desktop\my work\Beatbox.png")
+![BeatBox](./![Uploading Beatbox.png…]()
+)
 
 ---
 
